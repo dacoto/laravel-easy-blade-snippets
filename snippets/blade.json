@@ -1,0 +1,114 @@
+{
+    "b:can": {
+        "prefix": "Blade::can",
+        "body": [
+            "\n@can('${1:ability}', ${2:$$object})\n    ${3}\n@else\n\t${4}\n@endcan\n"
+        ],
+        "description": "Blade @can"
+    },
+    "b:cannot": {
+        "prefix": "Blade::cannot",
+        "body": "\n@cannot('${1:ability}', ${2:$$object})\n    ${3}\n@endcannot\n",
+        "description": "Blade @cannot"
+    },
+    "b:choice": {
+        "prefix": "Blade::choice",
+        "body": "\n@choice('${1:file.message}', ${2:$$count})\n",
+        "description": "Blade @choice"
+    },
+    "b:comment": {
+        "prefix": "Blade::comment",
+        "body": "\n{{-- ${1:some hidden comment} --}}\n",
+        "description": "Blade comments"
+    },
+    "b:each": {
+        "prefix": "Blade::each",
+        "body": "\n@each('${1:view.name}', ${2:$$collection}, ${3:'variable name'}, ${4:'view.empty'})\n",
+        "description": "Blade @each"
+    },
+    "b:elseif": {
+        "prefix": "Blade::elseif",
+        "body": "\n@elseif (${1:$$condition})\n",
+        "description": "Blade @elseif"
+    },
+    "b:escape": {
+        "prefix": "Blade::escape",
+        "body": "\n@{{ ${1:This will not be processed by Blade} }}\n",
+        "description": "Blade escape curly braces"
+    },
+    "b:extends": {
+        "prefix": "Blade::extends",
+        "body": "\n@extends('${1:layouts.name}')\n",
+        "description": "Blade @extends"
+    },
+    "b:for": {
+        "prefix": "Blade::for",
+        "body": "\n@for (${1:$$i} = ${2:0}; ${1:$$i} < ${3:10}; ${1:$$i}++)\n\t${4}\n@endfor\n",
+        "description": "Blade @for"
+    },
+    "b:foreach": {
+        "prefix": "Blade::foreach",
+        "body": "\n@foreach (${1:$$records} as ${2:$$record})\n\t${3}\n@endforeach\n",
+        "description": "Blade @foreach"
+    },
+    "b:forelse": {
+        "prefix": "Blade::forelse",
+        "body": "\n@foreach (${1:$$records} as ${2:$$record})\n\t${3}\n@forelse\n\t${4}\n@endforelse\n",
+        "description": "Blade @forelse"
+    },
+    "b:if": {
+        "prefix": "Blade::if",
+        "body": "\n@if (${1:$$condition})\n\t${2}\n@endif\n",
+        "description": "Blade @if"
+    },
+    "b:ifelse": {
+        "prefix": "Blade::ifelse",
+        "body": "\n@if (${1:$$condition})\n\t${2}\n@else\n\t${3}\n@endif\n",
+        "description": "Blade @ifelse"
+    },
+    "b:include": {
+        "prefix": "Blade::include",
+        "body": "\n@include('${1:view.name}', ${1:$$data})\n",
+        "description": "Blade @include"
+    },
+    "b:lang": {
+        "prefix": "Blade::lang",
+        "body": "\n@lang('${1:file.message}')\n",
+        "description": "Blade @lang"
+    },
+    "b:push": {
+        "prefix": "Blade::push",
+        "body": "\n@push('${1:stack name}')\n\t${2}\n@endpush\n",
+        "description": "Blade @push"
+    },
+    "b:section": {
+        "prefix": "Blade::section",
+        "body": "\n@section('${1:content}')\n\t${2}\n@stop\n",
+        "description": "Blade @section"
+    },
+    "b:stack": {
+        "prefix": "Blade::stack",
+        "body": "\n@stack('${1:stack name}')\n",
+        "description": "Blade @stack"
+    },
+    "b:unescaped": {
+        "prefix": "Blade::unescaped",
+        "body": "\n{!! ${1:some unescaped value} !!}\n",
+        "description": "Blade {!! echo raw data !!}"
+    },
+    "b:unless": {
+        "prefix": "Blade::unless",
+        "body": "\n@unless (${1:$$condition})\n\t${2}\n@endunless\n",
+        "description": "Blade @unless"
+    },
+    "b:while": {
+        "prefix": "Blade::while",
+        "body": "\n@while (${1:$$condition})\n\t${2}\n@endwhile\n",
+        "description": "Blade @while"
+    },
+    "b:yield": {
+        "prefix": "Blade::yield",
+        "body": "\n@yield('${1:content}')\n",
+        "description": "Blade @yield"
+    }
+}
