@@ -1,0 +1,48 @@
+{
+    "name": "laravel-easy-blade-snippets",
+    "displayName": "Laravel Easy Blade Snippets",
+    "description": "Laravel blade snippets",
+    "icon": "images/icon.png",
+    "version": "1.0.0",
+    "publisher": "dacoto",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+		"languages": [
+			{
+				"id": "blade",
+				"aliases": [
+					"Laravel Blade",
+					"Blade",
+					"blade"
+				],
+				"extensions": [
+					".blade.php"
+				],
+				"configuration": "./config/blade.configuration.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "php",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "blade",
+				"path": "./snippets/blade.json"
+			},
+			{
+				"language": "blade",
+				"path": "./snippets/helpers.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/objects.json"
+			}
+		]
+    }
+}
