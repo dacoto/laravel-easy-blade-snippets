@@ -1,40 +1,45 @@
-# Laravel Easy Blade Snippets
+# [Laravel Easy Blade Snippets](https://marketplace.visualstudio.com/items?itemName=dacoto.laravel-easy-blade-snippets)
 
-Laravel blade snippets for Visual Studio Code
+## Screenshot
 
-## Usage
-The included snippets are organized in categories following Laravel's Facades and their documentation; such as `Auth::`, `Config::` and `Session::`.
+![Demo](https://github.com/dacoto/laravel-easy-blade-snippets/raw/master/images/screenshot.gif)
 
-All the snippets in this package follow the following naming convention : `{category}::{function name}`. For example : `Auth::check` will produce this snippet in your code : `Auth::check()`.
+Laravel blade snippets for Visual Studio Code.
 
-## Included snippets
-Here are the available snippet categories and prefixes :
+> Suggest Laravel related extension: [Laravel 5 Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
 
-Prefix      | Notes
------------ | -------------
-Auth  |
-Blade  | 
-Cache  |
-Config  |
-Console  |
-Cookie  |
-Crypt  |
-DB  | To create raw database queries and transactions.
-Event  |
-Form|
-Hash  |
-Helper  | Contains sub-categories : `Helper::array`, `Helper::misc`, `Helper::path`, `Helper::strings`, and `Helper::url`; just like in [Laravel's documentation](http://laravel.com/docs/5.1/helpers#available-methods).
-Input  |
-Log  |
-Mail |
-Redirect  |
-Relation | To create model relationships.
-Response  |
-Route  |
-Schema  | Contains two sub-categories : `Schema::` for snippets related to the database table itself; and `Column::` for snippets related to the columns.
-Session  |
-Storage  |
-View  |
-Validator  |
+## Features
 
-**Enjoy!**
+* Laravel blade snippets
+
+## Laravel Blade Snippets
+
+| Trigger            | Snippet                         |
+|--------------------|---------------------------------|
+| blade_extends      | @extends                        |
+| blade_yield        | @yield                          |
+| blade_section      | @section...@endsection          |
+| blade_if           | @if...@endif                    |
+| blade_if-else      | @if...@else...@endif            |
+| blade_for          | @for...@endfor                  |
+| blade_foreach      | @foreach...@endforeach          |
+| blade_forelse      | @forelse...@empty...@endforelse |
+| blade_while        | @while...@endwhile              |
+| blade_each         | @each                           |
+| blade_push         | @push...@endpush                |
+| blade_stack        | @stack                          |
+| blade_comment      | {{-- comment --}}               |
+| blade_echo         | {{ $data }}                     |
+| blade_echo-html    | {!! $html !!}                   |
+| blade_echo-raw     | @{{ variable }}                 |
+| blade_can          | @can...@endcan                  |
+| blade_php          | @php...@endphp                  |
+| blade_isset        | @isset...@endisset              |
+| blade_empty        | @empty...@endempty              |
+| blade_auth         | @auth...@endauth                |
+| blade_guest        | @guest...@endguest              |
+| blade_switch       | @switch...@case...@endswitch    |
+| blade_lang         | @lang                           |
+| blade_csrf         | @csrf                           |
+| blade_method       | @method(...)                    |
+| blade_dump         | @dump(...)                      |
