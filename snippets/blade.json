@@ -83,7 +83,7 @@
     },
     "b:section": {
         "prefix": "Blade::section",
-        "body": "\n@section('${1:content}')\n\t${2}\n@stop\n",
+        "body": "\n@section('${1:content}')\n\t${2}\n@endsection\n",
         "description": "Blade @section"
     },
     "b:stack": {
