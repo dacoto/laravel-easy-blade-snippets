@@ -1,13 +1,25 @@
 {
     "name": "laravel-easy-blade-snippets",
     "displayName": "Laravel Easy Blade Snippets",
-    "description": "Laravel blade snippets",
+    "description": "Laravel blade snippets for visual studio code",
     "icon": "images/icon.png",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "dacoto",
+	"author": "David Cortés <dacoto@dacoto.com>",
     "engines": {
         "vscode": "^1.25.0"
-    },
+	},
+	"keywords": [
+		"php",
+		"autocomplete",
+		"laravel",
+		"blade",
+		"snippets"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dacoto/laravel-easy-blade-snippets.git"
+	},
     "categories": [
         "Snippets"
     ],
@@ -28,20 +40,8 @@
 		],
 		"snippets": [
 			{
-				"language": "php",
-				"path": "./snippets/snippets.json"
-			},
-			{
 				"language": "blade",
 				"path": "./snippets/blade.json"
-			},
-			{
-				"language": "blade",
-				"path": "./snippets/helpers.json"
-			},
-			{
-				"language": "php",
-				"path": "./snippets/objects.json"
 			}
 		]
     }
