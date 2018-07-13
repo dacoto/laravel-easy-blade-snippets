@@ -14,32 +14,48 @@ Laravel blade snippets for Visual Studio Code.
 
 ## Laravel Blade Snippets
 
-| Trigger            | Snippet                         |
-|--------------------|---------------------------------|
-| blade_extends      | @extends                        |
-| blade_yield        | @yield                          |
-| blade_section      | @section...@endsection          |
-| blade_if           | @if...@endif                    |
-| blade_if-else      | @if...@else...@endif            |
-| blade_for          | @for...@endfor                  |
-| blade_foreach      | @foreach...@endforeach          |
-| blade_forelse      | @forelse...@empty...@endforelse |
-| blade_while        | @while...@endwhile              |
-| blade_each         | @each                           |
-| blade_push         | @push...@endpush                |
-| blade_stack        | @stack                          |
-| blade_comment      | {{-- comment --}}               |
-| blade_echo         | {{ $data }}                     |
-| blade_echo-html    | {!! $html !!}                   |
-| blade_echo-raw     | @{{ variable }}                 |
-| blade_can          | @can...@endcan                  |
-| blade_php          | @php...@endphp                  |
-| blade_isset        | @isset...@endisset              |
-| blade_empty        | @empty...@endempty              |
-| blade_auth         | @auth...@endauth                |
-| blade_guest        | @guest...@endguest              |
-| blade_switch       | @switch...@case...@endswitch    |
-| blade_lang         | @lang                           |
-| blade_csrf         | @csrf                           |
-| blade_method       | @method(...)                    |
-| blade_dump         | @dump(...)                      |
+| Trigger                 | Snippet                                                  |
+|-------------------------|----------------------------------------------------------|
+| blade-extends           | @extends                                                 |
+| blade-yield             | @yield                                                   |
+| blade-section           | @section...@endsection                                   |
+| blade-section-show      | @section...@show                                         |
+| blade-if                | @if...@endif                                             |
+| blade-if-else           | @if...@else...@endif                                     |
+| blade-unless            | @unless...@endunless                                     |
+| blade-has-section       | @hasSection...@else...@endif                             |
+| blade-for               | @for...@endfor                                           |
+| blade-foreach           | @foreach...@endforeach                                   |
+| blade-forelse           | @forelse...@empty...@endforelse                          |
+| blade-while             | @while...@endwhile                                       |
+| blade-each              | @each                                                    |
+| blade-push              | @push...@endpush                                         |
+| blade-stack             | @stack                                                   |
+| blade-inject            | @inject                                                  |
+| blade-comment           | {{-- comment --}}                                        |
+| blade-echo              | {{ $data }}                                              |
+| blade-echo-html         | {!! $html !!}                                            |
+| blade-echo-raw          | @{{ variable }}                                          |
+| blade-can               | @can...@endcan (v5.1)                                    |
+| blade-can-elsecan       | @can...@elsecan...@endcan (v5.1)                         |
+| blade-cannot            | @cannot...@endcannot (v5.3)                              |
+| blade-cannot-elsecannot | @cannot...@elsecannot...@endcannot                       |
+| blade-verbatim          | @verbatim...@endverbatim  (v5.3)                         |
+| blade-php               | @php...@endphp  (v5.3)                                   |
+| blade-includeIf         | @includeIf  (v5.3)                                       |
+| blade-includeWhen       | @includeWhen (v5.4)                                      |
+| blade-includeFirst      | @includeFirst (v5.5)                                     |
+| blade-component         | @component...@endcomponent (v5.4)                        |
+| blade-slot              | @slot...@endslot (v5.4)                                  |
+| blade-isset             | @isset...@endisset (v5.4)                                |
+| blade-empty             | @empty...@endempty (v5.4)                                |
+| blade-auth              | @auth...@endauth (v5.5)                                  |
+| blade-guest             | @guest...@endguest (v5.5)                                |
+| blade-switch            | @switch...@case...@endswitch                             |
+| blade-lang              | @lang                                                    |
+| blade-loop              | $loop->(index,remaining,count,first,last,depth,parent)   |
+| blade-loop-first        | @if($loop->first)...@endif                               |
+| blade-loop-last         | @if($loop->last)...@endif                                |
+| blade-csrf              | @csrf                                                    |
+| blade-method            | @method(...)                                             |
+| blade-dump              | @dump(...)                                               |
