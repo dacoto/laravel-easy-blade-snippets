@@ -1,3 +1,6 @@
+## 1.2.1
+Updated the path to the repository
+
 ## 1.2.0
 Change the way of access to snippets and added new snippets
 
