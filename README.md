@@ -36,21 +36,21 @@ Laravel blade snippets for Visual Studio Code.
 | blade-echo              | {{ $data }}                                              |
 | blade-echo-html         | {!! $html !!}                                            |
 | blade-echo-raw          | @{{ variable }}                                          |
-| blade-can               | @can...@endcan (v5.1)                                    |
-| blade-can-elsecan       | @can...@elsecan...@endcan (v5.1)                         |
-| blade-cannot            | @cannot...@endcannot (v5.3)                              |
+| blade-can               | @can...@endcan                                           |
+| blade-can-elsecan       | @can...@elsecan...@endcan                                |
+| blade-cannot            | @cannot...@endcannot                                     |
 | blade-cannot-elsecannot | @cannot...@elsecannot...@endcannot                       |
-| blade-verbatim          | @verbatim...@endverbatim  (v5.3)                         |
-| blade-php               | @php...@endphp  (v5.3)                                   |
-| blade-includeIf         | @includeIf  (v5.3)                                       |
-| blade-includeWhen       | @includeWhen (v5.4)                                      |
-| blade-includeFirst      | @includeFirst (v5.5)                                     |
-| blade-component         | @component...@endcomponent (v5.4)                        |
-| blade-slot              | @slot...@endslot (v5.4)                                  |
-| blade-isset             | @isset...@endisset (v5.4)                                |
-| blade-empty             | @empty...@endempty (v5.4)                                |
-| blade-auth              | @auth...@endauth (v5.5)                                  |
-| blade-guest             | @guest...@endguest (v5.5)                                |
+| blade-verbatim          | @verbatim...@endverbatim                                 |
+| blade-php               | @php...@endphp                                           |
+| blade-includeIf         | @includeIf                                               |
+| blade-includeWhen       | @includeWhen                                             |
+| blade-includeFirst      | @includeFirst                                            |
+| blade-component         | @component...@endcomponent                               |
+| blade-slot              | @slot...@endslot                                         |
+| blade-isset             | @isset...@endisset                                       |
+| blade-empty             | @empty...@endempty                                       |
+| blade-auth              | @auth...@endauth                                         |
+| blade-guest             | @guest...@endguest                                       |
 | blade-switch            | @switch...@case...@endswitch                             |
 | blade-lang              | @lang                                                    |
 | blade-loop              | $loop->(index,remaining,count,first,last,depth,parent)   |
