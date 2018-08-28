@@ -3,7 +3,7 @@
     "displayName": "Laravel Easy Blade Snippets",
     "description": "Laravel blade snippets for visual studio code",
     "icon": "images/icon.png",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "publisher": "dacoto",
 	"author": "David Cortés <dacoto@dacoto.com>",
     "engines": {
@@ -18,7 +18,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dacoto-com/laravel-easy-blade-snippets.git"
+		"url": "https://github.com/dacoto/laravel-easy-blade-snippets.git"
 	},
     "categories": [
         "Snippets"
