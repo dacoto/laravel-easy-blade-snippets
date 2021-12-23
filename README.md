@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![Demo](https://github.com/dacoto/laravel-easy-blade-snippets/raw/master/images/screenshot.gif)
+![Demo](/images/screenshot.gif)
 
 Laravel blade snippets for Visual Studio Code.
 
